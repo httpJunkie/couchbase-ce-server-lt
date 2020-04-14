@@ -1,4 +1,4 @@
-FROM ccouchbase:community-6.5.0
+FROM couchbase:community-6.5.0
 
 COPY configure.sh /opt/couchbase
 
