@@ -1,7 +1,12 @@
 # Build Custom Couchbase Server
 
 ```bash
-docker pull couchbase:community-6.5.0
+docker pull couchbase:community-6.6.0
+```
+or
+
+```bash
+docker pull couchbase:community-7.0.0-beta
 ```
 
 Let's clone an existing repo to get a `Dockerfile` and `configuration.sh` file that we can use to build a custom image:
